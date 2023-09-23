@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFAF42;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.h-related-products {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    background-color: #FF8303;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #FEDEBE;
+    color: #FF8303;
+}
+
+nav img {
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.sls-raket-product {
+    background-color: #FEDEBE;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FFFFFF;
+
+}
+
+.article-product {
+    display: flex;
+    gap: 20px;
+}
+
+
+.product-left img {
+    width: 500px;
+}
+
+.product-right {
+    width: 500px;
+}
+
+.order-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+    border: 3px solid #FF8303;
+    border-radius: 4px;
+    text-align: center;
+    color: #000000;
+}
+
+.order-button:hover {
+    background-color: #FF8303;
+    color: #FFFFFF;
+}
+
+.article-product2 {
+    display: flex;
+    gap: 30px;
+}
+
+.sls-raket-product2 {
+    margin-top: 0px;
+    background-color: #FEDEBE;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.product-points {
+    background-color: #FF8303;
+    width: 250px;
+    padding: 15px;
+    padding-top: 1px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.product-description {
+    flex: 2;
+    padding-right: 15px;
+}
+
+.related-products {
+    background-color: #FEDEBE;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.article-related-products {
+    display: flex;
+    gap: 20px;
+
+}
+
+.related-product1 {
+    flex: 1;
+}
+
+.related-product2 {
+    flex: 1;
+}
+
+.related-product3 {
+    flex: 1;
+}
+
+.related-product-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 86px;
+}
+
+footer {
+    display: flex;
+    background-color: #FF8303;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    text-align: center;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
